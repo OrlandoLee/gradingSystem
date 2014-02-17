@@ -3,9 +3,11 @@ gradingSystem
 
 an automatic grading system
 
-This system is based on OCRopus(https://code.google.com/p/ocropus/).
+This system is based on OCRopus(https://code.google.com/p/ocropus/).</br>
 The usage is in its wiki(https://code.google.com/p/ocropus/w/list).
+
 We did some improvment by using true value to guide this system in ocrolib/lstm.py translate_back function.
+
 
 Usually steps.
 TRAINING
