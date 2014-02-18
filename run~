@@ -1,0 +1,5 @@
+#! /bin/sh
+./ocropus-rtrain 
+--load $(ls random_number_0_9_space* | sort | tail -1)  ./spaceTrainData/0001/*.png ./spaceTrainData/0002/*.png ./spaceTrainData/0003/*.png ./spaceTrainData/0004/*.png ./spaceTrainData/0005/*.png ./spaceTrainData/0006/*.png ./spaceTrainData/0007/*.png ./spaceTrainData/0008/*.png ./spaceTrainData/0009/*.png ./spaceTrainData/0010/*.png ./spaceTrainData/0011/*.png ./spaceTrainData/0012/*.png ./spaceTrainData/0013/*.png ./spaceTrainData/0014/*.png ./spaceTrainData/0015/*.png ./spaceTrainData/0016/*.png ./spaceTrainData/0017/*.png ./spaceTrainData/0018/*.png ./spaceTrainData/0019/*.png ./spaceTrainData/0020/*.png ./spaceTrainData/0021/*.png ./spaceTrainData/0022/*.png ./spaceTrainData/0023/*.png ./spaceTrainData/0024/*.png ./spaceTrainData/0025/*.png ./spaceTrainData/0026/*.png ./spaceTrainData/0027/*.png ./spaceTrainData/0028/*.png ./spaceTrainData/0029/*.png ./spaceTrainData/0030/*.png -o random_number_0_9_space -F 200
+./run
+
